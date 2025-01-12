@@ -1,5 +1,5 @@
 <script lang="ts">
-  import CreateGame from '$lib/CreateGame.svelte';
+  import CreateGame from '../../lib/CreateGame.svelte';
   import { PB_GameMode } from '../../common/pb';
 
   const allCreateGameProps = [

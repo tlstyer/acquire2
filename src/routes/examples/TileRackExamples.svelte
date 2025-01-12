@@ -1,5 +1,5 @@
 <script lang="ts">
-  import TileRack from '$lib/TileRack.svelte';
+  import TileRack from '../../lib/TileRack.svelte';
   import { toTileString } from '../../common/helpers';
   import { PB_GameBoardType } from '../../common/pb';
   import EnableKeyboardShortcutsButton from './EnableKeyboardShortcutsButton.svelte';

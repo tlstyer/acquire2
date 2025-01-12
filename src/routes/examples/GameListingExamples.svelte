@@ -1,6 +1,6 @@
 <script lang="ts">
-  import GameListing from '$lib/GameListing.svelte';
-  import { GameStatus } from '$lib/helpers';
+  import GameListing from '../../lib/GameListing.svelte';
+  import { GameStatus } from '../../lib/helpers';
   import { defaultGameBoard } from '../../common/defaults';
   import { PB_GameMode } from '../../common/pb';
   import { getExampleGame1, getExampleGame2 } from './games';

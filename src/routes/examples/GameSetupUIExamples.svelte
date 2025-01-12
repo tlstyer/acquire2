@@ -1,5 +1,5 @@
 <script lang="ts">
-  import GameSetupUI from '$lib/GameSetupUI.svelte';
+  import GameSetupUI from '../../lib/GameSetupUI.svelte';
   import { GameSetup } from '../../common/gameSetup';
   import { PB_GameMode, PB_PlayerArrangementMode } from '../../common/pb';
 

@@ -1,5 +1,5 @@
 <script lang="ts" context="module">
-  import { dialogIsVisibleStore } from '$lib/Dialog.svelte';
+  import { dialogIsVisibleStore } from '../lib/Dialog.svelte';
   import { derived } from 'svelte/store';
 
   export const keyboardShortcutsEnabledStore = derived(
@@ -11,14 +11,14 @@
 <script lang="ts">
   import { browser } from '$app/environment';
   import { PUBLIC_VERSION } from '$env/static/public';
-  import Header from '$lib/Header.svelte';
-  import { colorSchemeStore } from '$lib/Settings.svelte';
-  import { Client } from '$lib/client';
+  import Header from '../lib/Header.svelte';
+  import { colorSchemeStore } from '../lib/Settings.svelte';
+  import { Client } from '../lib/client';
   import {
     ClientCommunication,
     TestClientCommunication,
     WebSocketClientCommunication,
-  } from '$lib/clientCommunication';
+  } from '../lib/clientCommunication';
   import 'normalize.css';
   import { onDestroy, setContext } from 'svelte';
   import { TestServerCommunication } from '../server/serverCommunication';

@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { allChains } from '$lib/helpers';
-  import NextGameAction from '$lib/NextGameAction.svelte';
+  import { allChains } from '../../lib/helpers';
+  import NextGameAction from '../../lib/NextGameAction.svelte';
   import { Game } from '../../common/game';
   import { ActionDisposeOfShares } from '../../common/gameActions/disposeOfShares';
   import { ActionGameOver } from '../../common/gameActions/gameOver';

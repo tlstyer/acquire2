@@ -1,5 +1,5 @@
 <script lang="ts">
-  import DisposeOfShares from '$lib/DisposeOfShares.svelte';
+  import DisposeOfShares from '../../lib/DisposeOfShares.svelte';
   import { PB_GameBoardType } from '../../common/pb';
   import EnableKeyboardShortcutsButton from './EnableKeyboardShortcutsButton.svelte';
 

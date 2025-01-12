@@ -6,13 +6,13 @@
 </script>
 
 <script lang="ts">
-  import GameBoard from '$lib/GameBoard.svelte';
-  import GameHistory from '$lib/GameHistory.svelte';
-  import GameNavigationButtons from '$lib/GameNavigationButtons.svelte';
-  import NextGameAction from '$lib/NextGameAction.svelte';
-  import ScoreBoard from '$lib/ScoreBoard.svelte';
-  import { gameBoardLabelModeStore } from '$lib/Settings.svelte';
-  import TileRackReadOnly from '$lib/TileRackReadOnly.svelte';
+  import GameBoard from '../../../lib/GameBoard.svelte';
+  import GameHistory from '../../../lib/GameHistory.svelte';
+  import GameNavigationButtons from '../../../lib/GameNavigationButtons.svelte';
+  import NextGameAction from '../../../lib/NextGameAction.svelte';
+  import ScoreBoard from '../../../lib/ScoreBoard.svelte';
+  import { gameBoardLabelModeStore } from '../../../lib/Settings.svelte';
+  import TileRackReadOnly from '../../../lib/TileRackReadOnly.svelte';
   import { keyboardShortcutsEnabledStore } from '../../+layout.svelte';
   import { Game } from '../../../common/game';
   import { ActionGameOver } from '../../../common/gameActions/gameOver';

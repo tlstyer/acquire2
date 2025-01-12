@@ -1,6 +1,6 @@
 <script lang="ts">
-  import GameBoard from '$lib/GameBoard.svelte';
-  import { GameBoardLabelMode } from '$lib/helpers';
+  import GameBoard from '../../lib/GameBoard.svelte';
+  import { GameBoardLabelMode } from '../../lib/helpers';
   import { toTileString } from '../../common/helpers';
   import type { PB_GameBoardType } from '../../common/pb';
 

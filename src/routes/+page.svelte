@@ -2,8 +2,8 @@
 
 <script lang="ts">
   import { goto } from '$app/navigation';
-  import type { Client } from '$lib/client';
-  import { allGameModes, gameModeToString } from '$lib/helpers';
+  import type { Client } from '../lib/client';
+  import { allGameModes, gameModeToString } from '../lib/helpers';
   import { getContext } from 'svelte';
   import { slide } from 'svelte/transition';
   import { PB_GameMode } from '../common/pb';

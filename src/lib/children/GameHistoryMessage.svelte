@@ -1,8 +1,8 @@
 <svelte:options immutable />
 
 <script lang="ts">
-  import HotelName from '$lib/HotelName.svelte';
-  import Username from '$lib/Username.svelte';
+  import HotelName from '../../lib/HotelName.svelte';
+  import Username from '../../lib/Username.svelte';
   import {
     GameHistoryMessageAllTilesPlayed,
     GameHistoryMessageCouldNotAffordAnyShares,

@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { gameBoardTypeToHotelInitial } from '$lib/helpers';
-  import SelectChain, { SelectChainTitle } from '$lib/SelectChain.svelte';
+  import { gameBoardTypeToHotelInitial } from '../../lib/helpers';
+  import SelectChain, { SelectChainTitle } from '../../lib/SelectChain.svelte';
   import type { PB_GameBoardType } from '../../common/pb';
   import EnableKeyboardShortcutsButton from './EnableKeyboardShortcutsButton.svelte';
 

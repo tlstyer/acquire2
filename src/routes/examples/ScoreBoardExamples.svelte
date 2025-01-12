@@ -1,5 +1,5 @@
 <script lang="ts">
-  import ScoreBoard from '$lib/ScoreBoard.svelte';
+  import ScoreBoard from '../../lib/ScoreBoard.svelte';
   import { PB_GameMode } from '../../common/pb';
 
   const scoreBoardProps = [
