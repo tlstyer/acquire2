@@ -1,6 +1,3 @@
-import { Client } from '$lib/client';
-import { TestClientCommunication } from '$lib/clientCommunication';
-import { GameStatus } from '$lib/helpers';
 import { describe, expect, test, vi } from 'vitest';
 import { GameSetup } from '../common/gameSetup';
 import { createLoginLogoutMessage } from '../common/helpers';
@@ -10,6 +7,9 @@ import {
   PB_MessageToClient_LoginLogout_ResponseCode,
   PB_MessageToServer,
 } from '../common/pb';
+import { Client } from '../lib/client';
+import { TestClientCommunication } from '../lib/clientCommunication';
+import { GameStatus } from '../lib/helpers';
 import { GameRoom } from './gameRoom';
 import { Server } from './server';
 import { TestServerCommunication } from './serverCommunication';
