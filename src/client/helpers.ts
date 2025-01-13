@@ -46,6 +46,12 @@ export const teamNumberToCSSClassName = new Map([
   [3, styles.colorTeam3],
 ]);
 
+export const enum GameBoardLabelMode {
+  Nothing,
+  Coordinates,
+  HotelInitials,
+}
+
 export const allGameModes = [
   PB_GameMode.SINGLES_1,
   PB_GameMode.SINGLES_2,
