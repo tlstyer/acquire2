@@ -75,3 +75,15 @@ export const gameModeToString = new Map([
   [PB_GameMode.TEAMS_2_VS_2_VS_2, 'Teams 2 vs 2 vs 2'],
   [PB_GameMode.TEAMS_3_VS_3, 'Teams 3 vs 3'],
 ]);
+
+export const enum GameStatus {
+  SETTING_UP,
+  IN_PROGRESS,
+  COMPLETED,
+}
+
+export const gameStatusToString = new Map([
+  [GameStatus.SETTING_UP, 'Setting Up'],
+  [GameStatus.IN_PROGRESS, 'In Progress'],
+  [GameStatus.COMPLETED, 'Completed'],
+]);
