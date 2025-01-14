@@ -40,6 +40,16 @@ export const gameBoardTypeToHotelInitial = new Map([
   [PB_GameBoardType.IMPERIAL, 'I'],
 ]);
 
+export const gameBoardTypeToHotelName = new Map([
+  [PB_GameBoardType.LUXOR, 'Luxor'],
+  [PB_GameBoardType.TOWER, 'Tower'],
+  [PB_GameBoardType.AMERICAN, 'American'],
+  [PB_GameBoardType.FESTIVAL, 'Festival'],
+  [PB_GameBoardType.WORLDWIDE, 'Worldwide'],
+  [PB_GameBoardType.CONTINENTAL, 'Continental'],
+  [PB_GameBoardType.IMPERIAL, 'Imperial'],
+]);
+
 export const teamNumberToCSSClassName = new Map([
   [1, styles.colorTeam1],
   [2, styles.colorTeam2],
